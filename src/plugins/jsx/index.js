@@ -136,11 +136,11 @@ pp.jsxReadEntity = function() {
         if (str[1] === "x") {
           str = str.substr(2);
           if (HEX_NUMBER.test(str))
-            entity = String.fromCharCode(parseInt(str, 16));
+            entity = String.fromCodePoint(parseInt(str, 16));
         } else {
           str = str.substr(1);
           if (DECIMAL_NUMBER.test(str))
-            entity = String.fromCharCode(parseInt(str, 10));
+            entity = String.fromCodePoint(parseInt(str, 10));
         }
       } else {
         entity = XHTMLEntities[str];

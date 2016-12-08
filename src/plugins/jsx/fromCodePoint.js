@@ -1,5 +1,3 @@
-let fromCodePoint = String.fromCodePoint;
-
 // Adapted from String.fromcodepoint to export the function without modifying String
 /*! https://mths.be/fromcodepoint v0.2.1 by @mathias */
 
@@ -20,6 +18,8 @@ let fromCodePoint = String.fromCodePoint;
 // NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
 // DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+let fromCodePoint = String.fromCodePoint;
 
 if (!fromCodePoint) {
   const stringFromCharCode = String.fromCharCode;

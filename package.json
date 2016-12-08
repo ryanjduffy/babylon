@@ -34,7 +34,6 @@
     "rollup": "^0.36.3",
     "rollup-plugin-babel": "^2.6.1",
     "rollup-plugin-node-resolve": "^2.0.0",
-    "string.fromcodepoint": "^0.2.1",
     "unicode-9.0.0": "~0.7.0"
   },
   "bin": {
